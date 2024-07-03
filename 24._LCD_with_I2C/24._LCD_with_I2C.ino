@@ -5,8 +5,9 @@ int t=5000;
 
 void setup() {
   // put your setup code here, to run once:
-lcd.begin();
-lcd.backlight();
+lcd.init();
+//lcd.begin();
+//lcd.backlight(HIGH);
 }
 
 void loop() {
