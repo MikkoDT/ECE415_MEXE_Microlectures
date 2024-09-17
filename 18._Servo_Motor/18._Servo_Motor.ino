@@ -1,5 +1,5 @@
 #include <Servo.h>
-int servoPin=11;
+int servoPin=5;
 
 float servoPos=0;
 Servo myServo;
