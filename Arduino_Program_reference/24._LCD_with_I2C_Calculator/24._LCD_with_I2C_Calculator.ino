@@ -11,8 +11,9 @@ String op;
 
 void setup() {
   // put your setup code here, to run once:
-lcd.begin();
+lcd.begin(16,2);
 lcd.backlight();
+lcd.init();
 Serial.begin(9600);
 }
 
