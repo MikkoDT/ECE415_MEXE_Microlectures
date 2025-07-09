@@ -1,5 +1,5 @@
-#include <Servo.h>
-int servoPin=5;
+#include <ESP32Servo.h>
+int servoPin=16;
 
 float servoPos=0;
 Servo myServo;

@@ -6,7 +6,6 @@ int t=1500;
 int t0=10000;
 int t1=5000;
 
-
 float P;         // pressure
 float r;         // radius
 float m;         // mass
@@ -41,7 +40,6 @@ void loop()
  delay(t);
  lcd.clear();
  
-
  //Inputting the necessary mass values
   lcd.setCursor(0,0);
   lcd.print("Pressure Calcu");
@@ -76,16 +74,13 @@ void loop()
   Serial.print(F);
   Serial.print(" N "); //Newton
   
- 
   A= (3.1416)*(r*r);
   Serial.println();
   Serial.print("A= ");
   Serial.print(A);
   Serial.print(" su"); //square unit
   
-  
   P=F/A;
-  
   
   lcd.setCursor(0,0);
   lcd.print("P= ");
